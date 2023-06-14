@@ -1,0 +1,23 @@
+.footer{
+    background-color: var(--black);
+    padding: 20px 0 25px;
+    color: var(--white);
+    display: flex;
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+
+  .social{
+    display:flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+  .copyright{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .copyright p +p {
+    margin-top: 0.5em;
+  }
